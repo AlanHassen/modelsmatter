@@ -1,0 +1,47 @@
+library_headers: ["index", "ID", "reaction_hash", "reactants", "products", "classification", "retro_template", "template_hash", "selectivity", "outcomes", "template_code"]
+column_map:
+  reaction_hash: reaction_hash
+  reactants: reactants
+  products: products
+  retro_template: retro_template
+  template_hash: template_hash
+metadata_headers: ["template_hash", "classification"]
+in_csv_headers: False
+csv_sep: ","
+reaction_smiles_column: ""
+output_path: "."
+file_prefix: ""
+file_postfix:
+  raw_library: _raw_template_library.csv
+  library: _template_library.csv
+  false_library: _template_library_false.csv
+  training_labels: _training_labels.npz
+  validation_labels: _validation_labels.npz
+  testing_labels: _testing_labels.npz
+  training_inputs: _training_inputs.npz
+  validation_inputs: _validation_inputs.npz
+  testing_inputs: _testing_inputs.npz
+  training_inputs2: _training_inputs2.npz
+  validation_inputs2: _validation_inputs2.npz
+  testing_inputs2: _testing_inputs2.npz
+  training_library: _training.csv
+  validation_library: _validation.csv
+  testing_library: _testing.csv
+  unique_templates: _unique_templates.hdf5
+split_size:
+  training: 0.9
+  testing: 0.05
+  validation: 0.05
+batch_size: 256
+epochs: 100
+fingerprint_radius: 2
+fingerprint_len: 2048
+template_occurrence: 3
+remove_unsanitizable_products: False
+negative_data:
+  random_trials: 1000
+  recommender_model: ""
+  recommender_topn: 20
+model:
+  drop_out: 0.4
+  hidden_nodes: 512
