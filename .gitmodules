@@ -1,0 +1,3 @@
+[submodule "external/modelsmatter_modelzoo"]
+	path = external/modelsmatter_modelzoo
+	url = https://github.com/PTorrenPeraire/modelsmatter_modelzoo

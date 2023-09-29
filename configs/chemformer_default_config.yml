@@ -1,0 +1,27 @@
+properties:
+  C: 1.4
+  cutoff_cumulative: 10
+  cutoff_number: 50
+  max_transforms: 6
+  default_prior: 0.5
+  use_prior: True
+  return_first: False
+  iteration_limit: 200
+  time_limit: 28800
+  exclude_target_from_stock: True
+  template_column: retro_template
+  filter_cutoff: 0.05
+  prune_cycles_in_search: True
+  additive_expansion: False
+  search_algorithm: aizynthfinder.search.retrostar.search_tree.SearchTree
+  post_processing: {min_routes: 5, max_routes: 25, all_routes: False, route_distance_model: None}
+policy:
+  smiles-based:
+    chemformer:
+      gpu_mode: False
+      module_path: /<PATH>/modelsmatter/external/modelsmatter_modelzoo/external_models/Chemformer/
+      model_path: /<PATH>/modelsmatter/experiments/models/chemformer/chemformer_model.ckpt 
+      vocab_path: /<PATH>/modelsmatter/experiments/models/chemformer/bart_vocab.txt
+stock:
+  files:
+    zinc: /<PATH>/modelsmatter/experiments/stock/zinc_stock.hdf5
