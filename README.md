@@ -7,7 +7,7 @@ This package extends [AiZynthFinder](https://github.com/MolecularAI/aizynthfinde
 **Models Matter** uses the default AiZynthFinder implementation and introduces the following enhancements:
 
 - **Smiles-based Expansion Strategy**: This feature allows the integration of any retrosynthesis model operating at smiles-level with AiZynthFinder, not depending on the underlying search algorithm.
-- **ModelZoo Integration**: The package includes [ModelZoo](https://github.com/PTorrenPeraire/modelsmatter_modelzoo), a dedicated framework that defines the single-step retrosynthesis approach within the smiles-based expansion strategy. Currently supported implementations are Chemformer (https://github.com/PTorrenPeraire/aidd_chemformer), MHNreact (https://github.com/PTorrenPeraire/aidd_mhn_react), and LocalRetro (https://github.com/AlanHassen/modelsmatter_localretro_hpc).
+- **ModelZoo Integration**: The package includes [ModelZoo](https://github.com/PTorrenPeraire/modelsmatter_modelzoo), a dedicated framework that defines the single-step retrosynthesis approach within the smiles-based expansion strategy. Currently supported implementations are [Chemformer](https://github.com/PTorrenPeraire/aidd_chemformer), [MHNreact](https://github.com/PTorrenPeraire/aidd_mhn_react), and [LocalRetro](https://github.com/AlanHassen/modelsmatter_localretro_hpc).
 
 ## Installation Procedure
 
