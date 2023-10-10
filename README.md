@@ -50,6 +50,6 @@ Adaptations to AiZynthFinder config are necessary to accommodate the different s
 
 Utilize the extended functionalities of AiZynthFinder through Models Matter for a comprehensive synthesis prediction experience.
 
-## Models & Data
+## Datasets & Models
 
 Datasets and models that are not proprietary will be accessible upon publication.
