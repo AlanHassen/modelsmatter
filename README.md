@@ -49,3 +49,7 @@ Adaptations to AiZynthFinder config are necessary to accommodate the different s
 - Additional parameters can be set, such as specifying the vocabulary for Chemformer via `vocab_path`.
 
 Utilize the extended functionalities of AiZynthFinder through Models Matter for a comprehensive synthesis prediction experience.
+
+## Models & Data
+
+Datasets and models that are not proprietary will be accessible upon publication.
