@@ -1,6 +1,6 @@
 # Models Matter
 
-This package extends [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) to seamlessly integrate various single-step retrosynthesis models, as illustrated in our papers [Models Matter: The Impact of Single-Step Models on Synthesis Prediction](https://arxiv.org/abs/2308.05522) and [Mind the Retrosynthesis Gap: Bridging the divide between Single-step and Multi-step Retrosynthesis Prediction](https://openreview.net/forum?id=LjdtY0hM7tf)
+This package extends [AiZynthFinder](https://github.com/MolecularAI/aizynthfinder) to seamlessly integrate various single-step retrosynthesis models, as illustrated in our papers [Models Matter: The Impact of Single-Step Models on Synthesis Prediction](https://doi.org/10.1039/D3DD00252G) and [Mind the Retrosynthesis Gap: Bridging the divide between Single-step and Multi-step Retrosynthesis Prediction](https://openreview.net/forum?id=LjdtY0hM7tf)
 
 ## Overview
 
