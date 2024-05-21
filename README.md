@@ -52,4 +52,4 @@ Utilize the extended functionalities of AiZynthFinder through Models Matter for 
 
 ## Datasets & Models
 
-Datasets and models that are not proprietary will be accessible upon publication.
+Datasets and models that are not proprietary are available in the [Models Matter figshare repository](https://figshare.com/s/2eab4132b322229c1efc).
