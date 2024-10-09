@@ -53,3 +53,7 @@ Utilize the extended functionalities of AiZynthFinder through Models Matter for 
 ## Datasets & Models
 
 Datasets and models that are not proprietary are available in the [Models Matter figshare repository](https://figshare.com/s/2eab4132b322229c1efc).
+
+## Funding
+
+This study was partially funded by the European Union’s Horizon 2020 research and innovation program under the Marie Skłodowska-Curie Innovative Training Network European Industrial Doctorate grant agreement No. 956832 “Advanced machine learning for Innovative Drug Discovery”
